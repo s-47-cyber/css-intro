@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* box model */
+/* font */
+.p-tag{
+    border: 1px solid;
+    padding: 50px;
+    width: 400px;
+    margin: 40px auto;
+    height: 100px;
+    overflow: auto;
+    border-style: groove;
+    box-shadow: 1px 1px 10px 3px red; 
+
+    color: red;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: italic;
+    font-family:  "Roboto", sans-serif;
+    /* text-align: left; */
+    /* text-decoration: overline; */
+    text-transform: uppercase;
+    text-wrap: wrap;
+    text-shadow: 1px 1px 3px black;
+
+}
+.box{
+    width: 50%;
+    border: 1px solid;
+    height: 300px;
+    margin: 30px auto;
+    background-color: #201313;
+}
+
+.box p {
+  color:olive;
+    font-size: 1.3rem;
+   
+}
+.box p:hover{
+      color:#FFC726;
+}
+.box>b{
+    color: red;
+}
+
+.box+p{
+
+}
+.box>.bt{
+     border-radius: 25px;
+    padding: 13px;
+    border: 2px solid #201313;
+    background-color: #CE2D2D;
+    font-family: "jetBrains Mono", monospace;
+    color: white;
+}
+/* pseudo classes & element */
+.box:hover{
+    border: 2px solid white;
+   
+}
+.box>.bt:hover{
+    outline: 2px solid #CE2D2D ;
+}
